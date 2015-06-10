@@ -95,38 +95,38 @@ endif
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
 ${OBJECTDIR}/hw4.o: hw4.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
+	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/hw4.o.d 
 	@${RM} ${OBJECTDIR}/hw4.o 
 	@${FIXDEPS} "${OBJECTDIR}/hw4.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/hw4.o.d" -o ${OBJECTDIR}/hw4.o hw4.c   
 	
 ${OBJECTDIR}/i2c_display.o: i2c_display.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
+	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/i2c_display.o.d 
 	@${RM} ${OBJECTDIR}/i2c_display.o 
 	@${FIXDEPS} "${OBJECTDIR}/i2c_display.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/i2c_display.o.d" -o ${OBJECTDIR}/i2c_display.o i2c_display.c   
 	
 ${OBJECTDIR}/i2c_master_int.o: i2c_master_int.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
+	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/i2c_master_int.o.d 
 	@${RM} ${OBJECTDIR}/i2c_master_int.o 
 	@${FIXDEPS} "${OBJECTDIR}/i2c_master_int.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/i2c_master_int.o.d" -o ${OBJECTDIR}/i2c_master_int.o i2c_master_int.c   
 	
 else
 ${OBJECTDIR}/hw4.o: hw4.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
+	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/hw4.o.d 
 	@${RM} ${OBJECTDIR}/hw4.o 
 	@${FIXDEPS} "${OBJECTDIR}/hw4.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/hw4.o.d" -o ${OBJECTDIR}/hw4.o hw4.c   
 	
 ${OBJECTDIR}/i2c_display.o: i2c_display.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
+	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/i2c_display.o.d 
 	@${RM} ${OBJECTDIR}/i2c_display.o 
 	@${FIXDEPS} "${OBJECTDIR}/i2c_display.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/i2c_display.o.d" -o ${OBJECTDIR}/i2c_display.o i2c_display.c   
 	
 ${OBJECTDIR}/i2c_master_int.o: i2c_master_int.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
+	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/i2c_master_int.o.d 
 	@${RM} ${OBJECTDIR}/i2c_master_int.o 
 	@${FIXDEPS} "${OBJECTDIR}/i2c_master_int.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/i2c_master_int.o.d" -o ${OBJECTDIR}/i2c_master_int.o i2c_master_int.c   

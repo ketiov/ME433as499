@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/demoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/app_title"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <SurfaceView
+        android:id="@+id/surfaceview"
+        android:layout_width="640px"
+        android:layout_height="480px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextureView
+        android:id="@+id/textureview"
+        android:layout_width="640px"
+        android:layout_height="480px"
+        android:layout_above="@+id/surfaceview"
+        android:layout_alignLeft="@+id/surfaceview"
+        android:layout_alignStart="@+id/surfaceview" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nothing yet"
+        android:id="@+id/cameraStatus"
+        android:textColor="#ffff0a02"
+        android:layout_above="@+id/textureview"
+        android:layout_alignLeft="@+id/textureview"
+        android:layout_alignStart="@+id/textureview" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No PIC reply"
+        android:id="@+id/picReply"
+        android:textColor="#ff020aff"
+        android:layout_above="@+id/textureview"
+        android:layout_alignRight="@+id/textureview" />
+
+</RelativeLayout>

@@ -88,8 +88,6 @@
       <C32-AR>
         <property key="additional-options-chop-files" value="false"/>
       </C32-AR>
-      <C32-AS>
-      </C32-AS>
       <C32-LD>
         <property key="additional-options-use-response-files" value="false"/>
         <property key="enable-check-sections" value="false"/>
@@ -155,8 +153,6 @@
         <property key="save-temps" value="false"/>
         <property key="wpo-lto" value="false"/>
       </C32Global>
-      <PICkit3PlatformTool>
-      </PICkit3PlatformTool>
     </conf>
   </confs>
 </configurationDescriptor>
